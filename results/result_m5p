@@ -1,0 +1,44 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.M5P -M 4.0
+Relation:     completed_train_
+Instances:    922
+Attributes:   7
+              ARM
+              ETR
+              Deficit
+              Excedente
+              PRECIPITACAO
+              TEMPERATURA
+              ETo
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+M5 pruned model tree:
+(using smoothed linear models)
+LM1 (922/0%)
+
+LM num: 1
+ETo = 
+	1 * ETR 
+	+ 1 * Deficit 
+	+ 0
+
+Number of Rules : 1
+
+Time taken to build model: 0.22 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.01 seconds
+
+=== Summary ===
+
+Correlation coefficient                  1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              231     
+
